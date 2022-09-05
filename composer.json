@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-meta",
+  "name": "cmfstore/mediawiki-ext-meta",
   "type": "mediawiki-extension",
   "description": "MediaWiki META extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-meta/issues",
-    "source": "https://github.com/cmfstore/mediawiki-meta"
+    "issues": "https://github.com/cmfstore/mediawiki-ext-meta/issues",
+    "source": "https://github.com/cmfstore/mediawiki-ext-meta"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "cmfstore/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
